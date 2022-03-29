@@ -1,0 +1,38 @@
+@import url("https://css.gg/facebook.css");
+nav {
+    background: radial-gradient(#23A0BF 70%, #EEA900);
+    height: auto;
+    width: 100%;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-items: center;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-style: italic;
+    margin-right: 5%;
+  }
+  nav ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 8px;
+    padding: 3px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  nav ul li a {
+    color: darkorange;
+    text-shadow: 2px 2px 3px black;
+  }
+  nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
